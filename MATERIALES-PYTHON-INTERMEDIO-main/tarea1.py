@@ -9,8 +9,21 @@ print("El tipo de dato de la variable suma es: ", type(suma))
 nombre = "Jose"
 print("El nombre es: ", nombre)
 print("El tipo de dato de la variable nombre es: ", type(nombre))
-print(" resultado de la suma es: ", suma, "=" , numero, numero , "+5"
-      "Hola", sep = " - ",)
+#comentario 
+'''
+comentario extenso
+'''
+print("El resultado de la suma es:", suma)
+print("Suma", suma,"A", a, "B", b, sep="- ")
+
+nombre=input("Ingrese su nombre: ")
+print("Hola, ", nombre)
+
+edad=int(input("Ingrese su edad: "))
+print("Su edad es: ", edad)
+
+saldo=float(input("Ingrese su saldo: "))
+print("Su saldo es: ", saldo)
 
 nombre = input("Ingrese su nombre: ")
 print("Hola", nombre, "bienvenido a python")
